@@ -1,4 +1,3 @@
--- Localize frequently used globals for faster lookup
 local math_sin = math.sin
 local math_cos = math.cos
 local math_abs = math.abs
@@ -18,20 +17,20 @@ menu.add_colorpicker("Visualiser", "Settings", "vis_color", "Color", {0, 1, 0.5,
 local active_sounds = {}
 local recent_sounds = {}
 
-local BAR_COUNT     = 30
-local BAR_WIDTH     = 10
-local BAR_GAP       = 4
-local BAR_TOTAL_W   = (BAR_COUNT * BAR_WIDTH) + ((BAR_COUNT - 1) * BAR_GAP)
-local BAR_Y_OFFSET  = 100
-local BAR_MIN_H     = 5
+local BAR_COUNT = 30
+local BAR_WIDTH = 10
+local BAR_GAP = 4
+local BAR_TOTAL_W = (BAR_COUNT * BAR_WIDTH) + ((BAR_COUNT - 1) * BAR_GAP)
+local BAR_Y_OFFSET = 100
+local BAR_MIN_H = 5
 local BAR_MAX_SCALE = 80
 local MAX_VOL_CLAMP = 3
 
-local FADE_TIME        = 15.0
-local RING_BASE_R      = 15
+local FADE_TIME = 15.0
+local RING_BASE_R = 15
 local RING_PULSE_SCALE = 25
-local RING_SEGMENTS    = 32
-local RING_THICKNESS   = 2
+local RING_SEGMENTS = 32
+local RING_THICKNESS = 2
 
 local draw_color = {0, 0, 0, 0}
 
