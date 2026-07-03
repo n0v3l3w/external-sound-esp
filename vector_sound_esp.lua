@@ -87,7 +87,7 @@ function on_frame()
         else
             local volume = snd.Volume or 1
 
-            if memory.read(snd.Address + 344, "byte") == 1 and volume > 0.000001 then
+            if memory.read(snd.Address + 320, "byte") == 1 and volume > 0.000001 then
                 playing_count = playing_count + 1
                 total_vol = total_vol + volume
 
